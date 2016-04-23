@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">todo-list-firebase</string>
+    <string name="action_settings">Settings</string>
+</resources>
