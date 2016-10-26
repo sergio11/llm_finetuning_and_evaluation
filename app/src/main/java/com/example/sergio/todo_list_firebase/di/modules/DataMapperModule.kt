@@ -1,4 +1,4 @@
-package com.example.sergio.todo_list_firebase.data.di.modules
+package com.example.sergio.todo_list_firebase.di.modules
 
 import com.example.sergio.todo_list_firebase.data.mapper.PriorityDataMapper
 import com.example.sergio.todo_list_firebase.data.mapper.ReminderDataMapper
@@ -14,13 +14,13 @@ class DataMapperModule {
 
     @Provides
     @Singleton
-    fun provideReminderDataMapper(priorityDataMapper: PriorityDataMapper): ReminderDataMapper{
+    fun provideReminderDataMapper(priorityDataMapper: PriorityDataMapper): ReminderDataMapper {
         return ReminderDataMapper(priorityDataMapper)
     }
 
     @Provides
     @Singleton
-    fun providePriorityDataMapper(): PriorityDataMapper{
+    fun providePriorityDataMapper(): PriorityDataMapper {
         return PriorityDataMapper()
     }
 }
