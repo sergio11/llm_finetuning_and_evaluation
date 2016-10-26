@@ -7,5 +7,5 @@ import rx.Observable
  * Created by BISITE on 26/10/16.
  */
 interface IReminderRepository {
-    fun getReminders(): Observable<List<Reminder>>
+    fun getReminders(): Observable<Reminder>
 }
