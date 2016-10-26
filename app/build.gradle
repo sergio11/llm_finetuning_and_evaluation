@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'android-apt'
 
 android {
     compileSdkVersion 23
@@ -17,6 +19,9 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
 }
 
 dependencies {
@@ -24,9 +29,44 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.2.1'
     compile 'com.android.support:design:23.2.1'
-    compile 'com.jakewharton:butterknife:7.0.1'
-    compile 'com.firebase:firebase-client-android:2.3.1+'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    apt 'com.jakewharton:butterknife-compiler:8.4.0'
     compile 'com.android.support:cardview-v7:23.0.+'
     compile 'com.android.support:recyclerview-v7:23.0.+'
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    //Realm
+    compile 'io.realm:realm-android:0.87.4'
+    //RxAndroid
+    compile 'io.reactivex:rxandroid:1.1.0'
+    compile 'io.reactivex:rxjava:1.1.0'
+    //RxBindings
+    compile 'com.jakewharton.rxbinding:rxbinding:0.3.0'
+    //Retrofit
+    compile 'com.squareup.retrofit:retrofit:2.0.0-beta2'
+    //Retrofit Adapter and Converter
+    compile 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta2'
+    compile 'com.squareup.retrofit:converter-gson:2.0.0-beta2'
+    //Glide
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    //DAGGER 2
+    compile 'com.google.dagger:dagger:2.6'
+    apt 'com.google.dagger:dagger-compiler:2.6'
+    provided 'javax.annotation:jsr250-api:1.0'
+    //Timber
+    compile 'com.jakewharton.timber:timber:4.3.0'
+    compile 'javax.inject:javax.inject:1'
+    //Databinding and Realm Annotations
+    kapt 'com.android.databinding:compiler:1.0-rc4'
+    kapt "io.realm:realm-annotations:0.87.4"
+    kapt "io.realm:realm-annotations-processor:0.87.4"
 
+
+}
+repositories {
+    mavenCentral()
+}
+
+
+kapt {
+    generateStubs = true
 }
