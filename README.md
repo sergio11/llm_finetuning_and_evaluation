@@ -1,5 +1,18 @@
-# todo-list-firebase
+# LLM FineTuning and Evaluation 🚀🔍
 
+Welcome to the **LLM FineTuning and Evaluation** repository! 🎉 Here, we dive into the fascinating world of language model fine-tuning and evaluation, focusing on enhancing large language models (LLMs) like FLAN-T5 for various natural language processing tasks. 🧠💬
+
+## What's Inside? 📚✨
+
+- **Notebooks for Fine-Tuning:** Explore detailed notebooks on how to fine-tune models such as FLAN-T5 to perform specific tasks, like summarizing Spanish newspaper articles. 📝🇪🇸
+- **Evaluation Techniques:** Learn about different methods to evaluate the performance of your fine-tuned models, including metrics and best practices. 📊🔍
+- **Instruction Fine-Tuning:** Discover how to leverage instruction-based training to improve model capabilities for targeted applications. 🎯🛠️
+
+## Getting Started 🚀
+
+To get started, check out the notebooks for step-by-step guides on model fine-tuning and evaluation:
+- **`Instruction_Fine_Tuning_LLM_T5.ipynb`**: Detailed instructions on fine-tuning FLAN-T5 for Spanish summarization. 📖
+- **`Evaluation_and_Analysis_T5_Familiy_LLMs.ipynb`**: Insights into evaluating and analyzing various T5 models. 📈
 
 ### 📊 Evaluation and Analysis of Pre-Trained T5 Family LLMs: Leveraging Prompt Engineering and Few-Shot Examples for Fine-Tuning
 
