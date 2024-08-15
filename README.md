@@ -39,3 +39,8 @@ By following the instructions in the notebook, you’ll learn how to adapt this 
 
 For a comprehensive guide, refer to the notebook **`Instruction_Fine_Tuning_LLM_T5.ipynb`**. Enjoy exploring and fine-tuning! 🌟
 
+
+Feel free to explore, experiment, and contribute to the exciting field of LLMs. Your feedback and contributions are always welcome! 🌟🤝
+
+Happy fine-tuning and evaluating! 🚀✨
+
