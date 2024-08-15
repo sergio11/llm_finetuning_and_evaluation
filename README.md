@@ -11,3 +11,18 @@ In this work, we thoroughly evaluate different T5 models, exploring how various 
 
 For a detailed walkthrough of the evaluation process and findings, please refer to the notebook: **`Evaluation_and_Analysis_T5_Family_LLMs.ipynb`**. 📝
 
+## Instruction Fine-Tuning for Spanish Newspaper Article Summarization Using FLAN-T5-Small 📚📝
+
+Welcome to this project on enhancing the FLAN-T5-Small language model for summarizing Spanish newspaper articles! 🌟 In this guide, we focus on instruction fine-tuning the FLAN-T5-Small model to improve its ability to generate concise and accurate summaries of news content in Spanish.
+
+The notebook **`Instruction_Fine_Tuning_LLM_T5.ipynb`** provides a detailed walkthrough of the entire process. 📖✨ It covers:
+
+- **Data Preparation:** How to curate and prepare a dataset of Spanish newspaper articles and their summaries.
+- **Model Configuration:** Setting up the FLAN-T5-Small model for instruction-based fine-tuning.
+- **Fine-Tuning Process:** Steps to fine-tune the model specifically for summarization tasks.
+- **Evaluation:** Assessing the performance of the fine-tuned model on summarization.
+
+By following the instructions in the notebook, you’ll learn how to adapt this powerful pre-trained model to effectively handle Spanish text summarization, enabling it to deliver clear and coherent summaries of news articles. 🚀🗞️
+
+For a comprehensive guide, refer to the notebook **`Instruction_Fine_Tuning_LLM_T5.ipynb`**. Enjoy exploring and fine-tuning! 🌟
+
