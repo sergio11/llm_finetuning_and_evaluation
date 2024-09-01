@@ -2,6 +2,15 @@
 
 Welcome to the **LLM FineTuning and Evaluation** repository! 🎉 Here, we dive into the fascinating world of language model fine-tuning and evaluation, focusing on enhancing large language models (LLMs) like FLAN-T5 for various natural language processing tasks. 🧠💬
 
+<p align="center">
+   <img src="https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" />
+   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
+   <img src="https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white" />
+   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+   <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
+   <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" />
+</p>
+
 ## What's Inside? 📚✨
 
 - **Notebooks for Fine-Tuning:** Explore detailed notebooks on how to fine-tune models such as FLAN-T5 to perform specific tasks, like summarizing Spanish newspaper articles. 📝🇪🇸
