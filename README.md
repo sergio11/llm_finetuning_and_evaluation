@@ -16,12 +16,14 @@ Welcome to the **LLM FineTuning and Evaluation** repository! 🎉 Here, we dive 
 - **Notebooks for Fine-Tuning:** Explore detailed notebooks on how to fine-tune models such as FLAN-T5 to perform specific tasks, like summarizing Spanish newspaper articles. 📝🇪🇸
 - **Evaluation Techniques:** Learn about different methods to evaluate the performance of your fine-tuned models, including metrics and best practices. 📊🔍
 - **Instruction Fine-Tuning:** Discover how to leverage instruction-based training to improve model capabilities for targeted applications. 🎯🛠️
+- **Parameter Efficient Fine-Tuning with QLoRA:** Understand how to apply QLoRA for efficient fine-tuning of language models, particularly in legal assistance contexts. ⚖️📝
 
 ## Getting Started 🚀
 
 To get started, check out the notebooks for step-by-step guides on model fine-tuning and evaluation:
 - **`Instruction_Fine_Tuning_LLM_T5.ipynb`**: Detailed instructions on fine-tuning FLAN-T5 for Spanish summarization. 📖
 - **`Evaluation_and_Analysis_T5_Familiy_LLMs.ipynb`**: Insights into evaluating and analyzing various T5 models. 📈
+- **`Parameter_Efficient_Fine_Tuning_QLoRA_Legal_Assistance.ipynb`**: Learn about fine-tuning with QLoRA for specialized tasks such as drafting legal documents. ⚖️
 
 ### 📊 Evaluation and Analysis of Pre-Trained T5 Family LLMs: Leveraging Prompt Engineering and Few-Shot Examples for Fine-Tuning
 
@@ -48,8 +50,20 @@ By following the instructions in the notebook, you’ll learn how to adapt this 
 
 For a comprehensive guide, refer to the notebook **`Instruction_Fine_Tuning_LLM_T5.ipynb`**. Enjoy exploring and fine-tuning! 🌟
 
+## Parameter Efficient Fine-Tuning with QLoRA for Legal Assistance ⚖️📝
+
+This section introduces the concept of **Parameter Efficient Fine-Tuning (PEFT)** using QLoRA for enhancing language models in legal contexts. **QLoRA** (Quantized Low-Rank Adaptation) is designed to efficiently fine-tune large language models with fewer parameters, reducing both computational and memory requirements.
+
+The notebook **`Parameter_Efficient_Fine_Tuning_QLoRA_Legal_Assistance.ipynb`** details the following:
+
+- **LoRA Configuration:** Understand how to set up Low-Rank Adaptation (LoRA) to adapt large models for specific legal tasks.
+- **Fine-Tuning Process:** Steps to apply QLoRA to fine-tune models such as Llama-2 for drafting legal documents and other legal assistance applications.
+- **Evaluation:** Techniques to evaluate the performance of the fine-tuned model in generating legal content.
+
+This approach allows for efficient adaptation of language models to specialized tasks like legal document drafting, ensuring high performance while managing resource usage effectively.
+
+For a comprehensive guide on QLoRA fine-tuning, refer to the notebook **`Parameter_Efficient_Fine_Tuning_QLoRA_Legal_Assistance.ipynb`**. Explore the potential of efficient fine-tuning techniques for legal applications! 🌟⚖️
 
 Feel free to explore, experiment, and contribute to the exciting field of LLMs. Your feedback and contributions are always welcome! 🌟🤝
 
 Happy fine-tuning and evaluating! 🚀✨
-
