@@ -1,6 +1,6 @@
 # LLM Fine-Tuning and Evaluation 🚀🔍
 
-Welcome to the **LLM Fine-Tuning and Evaluation** repository! 🎉 Here, we delve deep into the exciting world of **large language model (LLM)** fine-tuning and evaluation, focusing on cutting-edge techniques to adapt models like **FLAN-T5** and **TinyLLAMA** for diverse **natural language processing (NLP)** tasks. 🧠💬
+Welcome to the **LLM Fine-Tuning and Evaluation** repository! 🎉 Here, we delve deep into the exciting world of **large language model (LLM)** fine-tuning and evaluation, focusing on cutting-edge techniques to adapt models like **FLAN-T5**, **TinyLLAMA**, and **Aguila7B** for diverse **natural language processing (NLP)** tasks. 🧠💬
 
 As LLMs become an integral part of modern AI applications, the ability to fine-tune and evaluate these models effectively has never been more crucial. This repository is designed to help you navigate the complexities of model customization, offering insights and practical tools to enhance the performance, accuracy, and ethical responsibility of your models.
 
@@ -35,6 +35,7 @@ To get started, check out the notebooks for step-by-step guides on model fine-tu
 - **`Evaluation_and_Analysis_T5_Familiy_LLMs.ipynb`**: Insights into evaluating and analyzing various T5 models. 📈
 - **`Parameter_Efficient_Fine_Tuning_QLoRA_Legal_Assistance.ipynb`**: Learn about fine-tuning with QLoRA for specialized tasks such as drafting legal documents. ⚖️
 - **`TinyLLAMA_PPO_RLHF_Avoiding_Offensive_Language.ipynb`**: Explore the fine-tuning process of TinyLLAMA using PPO and RLHF to avoid harmful or offensive language. 🔄🛡️
+- **`Evaluation_of_Fine_Tuned_Large_Language_Models_for_ILENIA.ipynb`**: Evaluation of fine-tuned models in the **ILENIA** framework, including Aguila7B and Latxa projects. 🌐
 
 ### Fine-Tuning TinyLLAMA with PPO for RLHF: Avoidance of Harmful or Offensive Language 🛡️🔄
 
@@ -46,6 +47,19 @@ In this new study, the primary goal was to fine-tune **TinyLLAMA** using **Proxi
 - **Evaluation:** Summarization tasks were used to test the model's behavior in dialogue scenarios, and the fine-tuned TinyLLAMA demonstrated a significant reduction in offensive language while retaining coherence in its outputs.
 
 For a comprehensive understanding of the methodology and results, refer to the notebook: **`TinyLLAMA_PPO_RLHF_Avoiding_Offensive_Language.ipynb`**.
+
+## Evaluation of Fine-Tuned Large Language Models for ILENIA 🌐📊
+
+The **ILENIA** project is part of Spain's **Strategic Project for Economic Recovery and Transformation (PERTE)**, which focuses on developing multilingual resources for the **New Language Economy (NEL)**. This initiative supports the use of Spanish and other official languages to drive economic growth and international competitiveness in areas like AI, translation, and education.
+
+As part of this effort, we evaluate **LLMs** from the **Aguila7B** and **Latxa** projects, which are designed for text and speech processing tasks. These evaluations focus on the models' performance, ensuring they align with societal and technological needs, particularly in multilingual and cross-lingual contexts.
+
+**Key Aspects:**
+- **Multilingualism and Cross-lingual Transfer:** The models are evaluated for their ability to handle text and speech data across multiple languages.
+- **Project Timeline:** ILENIA spans 36 months and is led by the **Barcelona Supercomputing Center (BSC-CNS)**.
+- **Resource Optimization:** The fine-tuning of LLMs ensures efficient model generation, optimizing costs and computational resources.
+
+For an in-depth analysis, refer to the notebook: **`Evaluation_of_Fine_Tuned_Large_Language_Models_for_ILENIA.ipynb`**.
 
 ### 📊 Evaluation and Analysis of Pre-Trained T5 Family LLMs: Leveraging Prompt Engineering and Few-Shot Examples for Fine-Tuning
 
