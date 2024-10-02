@@ -39,7 +39,7 @@ To get started, check out the notebooks for step-by-step guides on model fine-tu
 - **`TinyLLAMA_PPO_RLHF_Avoiding_Offensive_Language.ipynb`**: Explore the fine-tuning process of TinyLLAMA using PPO and RLHF to avoid harmful or offensive language. 🔄🛡️
 - **`Evaluation_of_Fine_Tuned_Large_Language_Models_for_ILENIA.ipynb`**: Evaluation of fine-tuned models in the **ILENIA** framework, including Aguila7B and Latxa projects. 🌐
 
-### Fine-Tuning TinyLLAMA with PPO for RLHF: Avoidance of Harmful or Offensive Language 🛡️🔄
+## Fine-Tuning TinyLLAMA with PPO for RLHF: Avoidance of Harmful or Offensive Language 🛡️🔄
 
 In this new study, the primary goal was to fine-tune **TinyLLAMA** using **Proximal Policy Optimization (PPO)** techniques combined with **Reinforcement Learning from Human Feedback (RLHF)**. The objective is to refine the model's ability to avoid generating harmful, offensive, or toxic language while preserving meaningful content generation.
 
@@ -50,7 +50,7 @@ In this new study, the primary goal was to fine-tune **TinyLLAMA** using **Proxi
 
 For a comprehensive understanding of the methodology and results, refer to the notebook: **`TinyLLAMA_PPO_RLHF_Avoiding_Offensive_Language.ipynb`**.
 
-### Evaluation of Fine-Tuned Large Language Models for ILENIA 🌐📊
+## Evaluation of Fine-Tuned Large Language Models for ILENIA 🌐📊
 
 The **ILENIA** project is part of Spain's **Strategic Project for Economic Recovery and Transformation (PERTE)**, which focuses on developing multilingual resources for the **New Language Economy (NEL)**. This initiative supports the use of Spanish and other official languages to drive economic growth and international competitiveness in areas like AI, translation, and education.
 
@@ -63,7 +63,7 @@ As part of this effort, we evaluate **LLMs** from the **Aguila7B** and **Latxa**
 
 For an in-depth analysis, refer to the notebook: **`Evaluation_of_Fine_Tuned_Large_Language_Models_for_ILENIA.ipynb`**.
 
-### 📊 Evaluation and Analysis of Pre-Trained T5 Family LLMs: Leveraging Prompt Engineering and Few-Shot Examples for Fine-Tuning
+## 📊 Evaluation and Analysis of Pre-Trained T5 Family LLMs: Leveraging Prompt Engineering and Few-Shot Examples for Fine-Tuning
 
 In the fast-evolving world of natural language processing (NLP), leveraging pre-trained language models has become crucial for improving performance across various tasks. 🌟 Among these, the T5 family of models stands out for its versatility and effectiveness in handling a range of language tasks. This study delves into the evaluation and analysis of pre-trained T5 models, focusing on how prompt engineering and few-shot examples can be used to fine-tune these models. 🔍
 
