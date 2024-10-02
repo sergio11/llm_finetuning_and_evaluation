@@ -1,6 +1,16 @@
-# LLM FineTuning and Evaluation 🚀🔍
+# LLM Fine-Tuning and Evaluation 🚀🔍
 
-Welcome to the **LLM FineTuning and Evaluation** repository! 🎉 Here, we dive into the fascinating world of language model fine-tuning and evaluation, focusing on enhancing large language models (LLMs) like FLAN-T5 for various natural language processing tasks. 🧠💬
+Welcome to the **LLM Fine-Tuning and Evaluation** repository! 🎉 Here, we delve deep into the exciting world of **large language model (LLM)** fine-tuning and evaluation, focusing on cutting-edge techniques to adapt models like **FLAN-T5** and **TinyLLAMA** for diverse **natural language processing (NLP)** tasks. 🧠💬
+
+As LLMs become an integral part of modern AI applications, the ability to fine-tune and evaluate these models effectively has never been more crucial. This repository is designed to help you navigate the complexities of model customization, offering insights and practical tools to enhance the performance, accuracy, and ethical responsibility of your models.
+
+Whether you're working on:
+- **Summarization** of lengthy texts in multiple languages 📝🌍,
+- **Legal document drafting** with precision and efficiency ⚖️📄,
+- **Question answering** systems for customer service 🤖💬,
+- Or fine-tuning models to avoid generating harmful or offensive content 🔒🛡️,
+
+this repository provides the resources to elevate your projects to the next level.
 
 <p align="center">
    <img src="https://img.shields.io/badge/pypi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" />
@@ -13,7 +23,7 @@ Welcome to the **LLM FineTuning and Evaluation** repository! 🎉 Here, we dive 
 
 ## What's Inside? 📚✨
 
-- **Notebooks for Fine-Tuning:** Explore detailed notebooks on how to fine-tune models such as FLAN-T5 to perform specific tasks, like summarizing Spanish newspaper articles. 📝🇪🇸
+- **Notebooks for Fine-Tuning:** Explore detailed notebooks on how to fine-tune models such as FLAN-T5 and TinyLLAMA to perform specific tasks, like summarizing Spanish newspaper articles or avoiding harmful language generation. 📝🇪🇸
 - **Evaluation Techniques:** Learn about different methods to evaluate the performance of your fine-tuned models, including metrics and best practices. 📊🔍
 - **Instruction Fine-Tuning:** Discover how to leverage instruction-based training to improve model capabilities for targeted applications. 🎯🛠️
 - **Parameter Efficient Fine-Tuning with QLoRA:** Understand how to apply QLoRA for efficient fine-tuning of language models, particularly in legal assistance contexts. ⚖️📝
@@ -24,6 +34,18 @@ To get started, check out the notebooks for step-by-step guides on model fine-tu
 - **`Instruction_Fine_Tuning_LLM_T5.ipynb`**: Detailed instructions on fine-tuning FLAN-T5 for Spanish summarization. 📖
 - **`Evaluation_and_Analysis_T5_Familiy_LLMs.ipynb`**: Insights into evaluating and analyzing various T5 models. 📈
 - **`Parameter_Efficient_Fine_Tuning_QLoRA_Legal_Assistance.ipynb`**: Learn about fine-tuning with QLoRA for specialized tasks such as drafting legal documents. ⚖️
+- **`TinyLLAMA_PPO_RLHF_Avoiding_Offensive_Language.ipynb`**: Explore the fine-tuning process of TinyLLAMA using PPO and RLHF to avoid harmful or offensive language. 🔄🛡️
+
+### Fine-Tuning TinyLLAMA with PPO for RLHF: Avoidance of Harmful or Offensive Language 🛡️🔄
+
+In this new study, the primary goal was to fine-tune **TinyLLAMA** using **Proximal Policy Optimization (PPO)** techniques combined with **Reinforcement Learning from Human Feedback (RLHF)**. The objective is to refine the model's ability to avoid generating harmful, offensive, or toxic language while preserving meaningful content generation.
+
+**Highlights of the Study:**
+- **Fine-Tuning Objective:** Implement RLHF to make TinyLLAMA more sensitive to language safety, focusing on removing toxic and offensive elements from generated outputs.
+- **Model Configuration:** Leveraging PPO, a reinforcement learning technique, to optimize TinyLLAMA’s reward function toward producing non-offensive language.
+- **Evaluation:** Summarization tasks were used to test the model's behavior in dialogue scenarios, and the fine-tuned TinyLLAMA demonstrated a significant reduction in offensive language while retaining coherence in its outputs.
+
+For a comprehensive understanding of the methodology and results, refer to the notebook: **`TinyLLAMA_PPO_RLHF_Avoiding_Offensive_Language.ipynb`**.
 
 ### 📊 Evaluation and Analysis of Pre-Trained T5 Family LLMs: Leveraging Prompt Engineering and Few-Shot Examples for Fine-Tuning
 
