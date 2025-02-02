@@ -23,6 +23,10 @@ this repository provides the resources to elevate your projects to the next leve
 
 🙏 I would like to extend my heartfelt gratitude to [Santiago Hernández, an expert in Cybersecurity and Artificial Intelligence](https://www.udemy.com/user/shramos/). His incredible course on Deep Learning and AI generative, available at Udemy, was instrumental in shaping the development of this project.
 
+## More Details 📝
+
+For comprehensive information about this project, check out this [Medium article](https://sanchezsanchezsergio418.medium.com/fine-tuning-large-language-models-llms-techniques-and-best-practices-for-different-use-cases-97fab572a7a9).
+
 ## What's Inside? 📚✨
 
 - **Notebooks for Fine-Tuning:** Explore detailed notebooks on how to fine-tune models such as FLAN-T5 and TinyLLAMA to perform specific tasks, like summarizing Spanish newspaper articles or avoiding harmful language generation. 📝🇪🇸
