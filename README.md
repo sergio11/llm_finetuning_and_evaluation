@@ -23,6 +23,10 @@ this repository provides the resources to elevate your projects to the next leve
 
 🙏 I would like to extend my heartfelt gratitude to [Santiago Hernández, an expert in Cybersecurity and Artificial Intelligence](https://www.udemy.com/user/shramos/). His incredible course on Deep Learning and AI generative, available at Udemy, was instrumental in shaping the development of this project.
 
+## ⚠️ Disclaimer
+
+This project has been developed **for learning purposes** to explore techniques for **fine-tuning** and evaluating **language models**. It is not intended for commercial use or direct application in production environments. The goal is to gain practical knowledge in the field of Natural Language Processing (NLP) and adjust pre-existing models to enhance their performance. This project should be considered an educational and experimental tool.
+
 ## More Details 📝
 
 For comprehensive information about this project, check out this [Medium article](https://sanchezsanchezsergio418.medium.com/fine-tuning-large-language-models-llms-techniques-and-best-practices-for-different-use-cases-97fab572a7a9).
@@ -146,6 +150,10 @@ For a comprehensive guide on QLoRA fine-tuning, refer to the notebook **`Paramet
 Feel free to explore, experiment, and contribute to the exciting field of LLMs. Your feedback and contributions are always welcome! 🌟🤝
 
 Happy fine-tuning and evaluating! 🚀✨
+
+## ⚠️ Disclaimer
+
+This project has been developed **for learning purposes** to explore techniques for **fine-tuning** and evaluating **language models**. It is not intended for commercial use or direct application in production environments. The goal is to gain practical knowledge in the field of Natural Language Processing (NLP) and adjust pre-existing models to enhance their performance. This project should be considered an educational and experimental tool.
 
 ## Acknowledgments:
 
